@@ -54,8 +54,9 @@ function add(){
         }
         
         // post use data
+        const url = 'https://cryptic-chamber-83776.herokuapp.com/add';
         // const url = 'http://138.197.111.251:3001/add';
-        const url = 'http://localhost:3000/add';
+//        const url = 'http://localhost:3000/add';
         superagent
             .post(url)
             .send(user)
